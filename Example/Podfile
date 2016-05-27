@@ -2,7 +2,8 @@ use_frameworks!
 
 target 'DebugHeadTest_Example' do
   pod 'DebugHeadTest', :path => '../'
-
+  pod 'DebugHead', :git => 'git@github.com:malt03/DebugHead.git'
+  
   target 'DebugHeadTest_Tests' do
     inherit! :search_paths
 

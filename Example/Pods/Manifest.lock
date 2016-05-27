@@ -1,0 +1,27 @@
+PODS:
+  - DebugHead (0.1.0)
+  - DebugHeadTest (0.1.0):
+    - DebugHead
+
+DEPENDENCIES:
+  - DebugHead (from `git@github.com:malt03/DebugHead.git`)
+  - DebugHeadTest (from `../`)
+
+EXTERNAL SOURCES:
+  DebugHead:
+    :git: git@github.com:malt03/DebugHead.git
+  DebugHeadTest:
+    :path: "../"
+
+CHECKOUT OPTIONS:
+  DebugHead:
+    :commit: fdcda9928f5664ab551f4b25d32bb7f58bc081f1
+    :git: git@github.com:malt03/DebugHead.git
+
+SPEC CHECKSUMS:
+  DebugHead: 1b8ba28b158cf1a0e0908650344029249419ce60
+  DebugHeadTest: 33884d8fada4b8fd25b9afd2458aa44ca21ebab2
+
+PODFILE CHECKSUM: d04edbb1087437eb82701713b7bad8e8c006cbcb
+
+COCOAPODS: 1.0.0
